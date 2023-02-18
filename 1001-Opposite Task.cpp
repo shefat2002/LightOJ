@@ -2,12 +2,6 @@
 using namespace std;
 #define nl cout << "\n";
 #define pi (2*acos(0))
-#define case cout << "Case " << i+1 << ": ";
-
-void fast()
-{
-    ios_base::sync_with_stdio(false);cin.tie(NULL);
-}
 
 int main() {
     int n , a , b = 0;

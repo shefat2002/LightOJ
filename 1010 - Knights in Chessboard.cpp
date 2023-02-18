@@ -11,38 +11,13 @@ Case 3:(most important case) If either of the row or column is 2 then we just di
 */
 
 
-
-
 #include <bits/stdc++.h>
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <set>
-#include <map>
-#include <vector>
-#include <string>
-#include <cmath>
-#include <cstring>
-#include <queue>
-#include <stack>
-#include <algorithm>
-#include <sstream>
-#include <numeric>
-#include <ctime>
-#include <cctype>
-#include <limits>
 using namespace std;
 #define nl cout << "\n";
-#define pi (2*acos(0))
 #define case cout << "Case " << case_number << ": ";\
 case_number++;
 #define fast ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-#define MAX_INT 1000002
 int case_number = 1;
-
-/*---------------------------------------------------------------------------------------------------*/
-
-
 
 
 void solve()
@@ -53,8 +28,7 @@ void solve()
         cout << max(n,m);
     }
     else if(n == 2 || m == 2){
-        if(((m*n)%8) >=4) cout << ((m*n)/8)*4 +4;
-        else cout << ((m*n)/8)*4 +((m*n)%8);
+        cout << (m*n)/8*4+min(4,(m*n)%8);
     }
     else cout << (m*n+1)/2;
 }

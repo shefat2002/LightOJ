@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define nl cout << "\n";
-#define pi (2*acos(0))
 #define case cout << "Case " << i+1 << ": ";
 
 void fast()
