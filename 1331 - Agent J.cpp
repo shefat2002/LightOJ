@@ -1,29 +1,8 @@
 #include <bits/stdc++.h>
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <set>
-#include <map>
-#include <vector>
-#include <string>
-#include <cmath>
-#include <cstring>
-#include <queue>
-#include <stack>
-#include <algorithm>
-#include <sstream>
-#include <numeric>
-#include <ctime>
-#include <cctype>
-#include <limits>
 using namespace std;
-
 #define nl cout << "\n";
-#define pi (2*acos(0))
 #define case cout << "Case " << i+1 << ": ";\
 i++;
-#define fast ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-#define max 1000002
 
 double CircleArea(double r , double a)
 {

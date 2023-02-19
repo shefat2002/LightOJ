@@ -43,10 +43,6 @@ Now we can just simply plugin the value of r3 in our formula, V = (π/3) * p * (
 using namespace std;
 #define nl "\n"
 #define pi (2*acos(0))
-void fast()
-{
-    ios_base::sync_with_stdio(false);cin.tie(NULL);
-}
 
 int main()
 {
