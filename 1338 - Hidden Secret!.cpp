@@ -4,15 +4,8 @@ using namespace std;
 #define nl      cout << "\n";
 #define pi      (2*acos(0))
 #define case    cout << "Case " << case_number << ": "; case_number++;
-#define fast    ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-#define MAX_INT 1000002
-#define YES     "Yes"
-#define NO      "No"
 
 int case_number = 1;
-void file();
-/*----------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 void solve()
 {
@@ -45,14 +38,13 @@ void solve()
 
         }
     }
-    if(istrue) cout << YES;
-    else cout << NO;
+    if(istrue) cout << "Yes";
+    else cout << "No";
 
 }
 
 int main()
 {
-    file();
     int n; cin >> n;
     cin.ignore();
     while(n--){
@@ -62,12 +54,4 @@ int main()
         nl;
     }
     return 0;
-}
-
-void file()
-{
-    #ifndef ONLINE_JUDGE
-    freopen("in.txt" , "r", stdin);
-    freopen("out.txt" , "w", stdout);
-    #endif
 }
