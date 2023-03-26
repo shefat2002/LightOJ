@@ -18,6 +18,7 @@ int case_number = 1;
 5!=120
 */
 /// 0,0,0,0,0, 1,1,1,1,1, 2,2,2,2,2,.....
+/// external resources: https://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
 
 ll count(ll n)
 {
